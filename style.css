@@ -83,3 +83,8 @@ input[type=submit]:active {
 .buttons{
     padding-top: 1%;
 }
+
+.locationpng{
+    width: 3%;
+    margin-right: 10px;
+}
