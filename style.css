@@ -6,7 +6,6 @@
 }
 
 .container{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(back.jpeg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -17,21 +16,38 @@
     overflow: hidden;
 }
 
-.mainLogo{
-    width: 29%;
+.titlename{
+    display: block;
+    width: 100%;
+    max-width: 185px;
+    padding-top: 1%;
+    margin-left: 42%;
+}
+
+.titleorg{
+    width: 100%;
+    max-width: 362px;
     padding-top: 4%;
-    margin-left: 35%;
+    margin-left: 46%;
+}
+
+.mainLogo{
+    width: 100%;
+    max-width: 209px;
+    padding-top: 1%;
+    margin-left: 18%;
+    position: absolute;
 }
 .opening{
-    color: antiquewhite;
+    color: #cf6d17;
     font-weight: 300;
     font-size: 20px;
-    padding-top: 2%;
-    margin-left: 31%;
+    padding-top: 6%;
+    margin-left: 24%;
 }
 
 .offerings{
-    color: antiquewhite;
+    color:  #cf6d17;;
     font-weight: 300;
     font-size: 20px;
     padding-top: 1%;
@@ -39,11 +55,11 @@
 }
 
 .locate{
-    color: antiquewhite;
+    color:  #cf6d17;;
     font-weight: 300;
     font-size: 20px;
     padding-top: 1%;
-    margin-left: 28%;
+    margin-left: 25%;
 }
 
 .btn:link,
@@ -54,7 +70,7 @@ input[type=submit] {
     margin-left: 8%;
     font-weight: 600;
     font-size: 20px;
-    color: antiquewhite;
+    color:  #cf6d17;;
     text-decoration: none;
     border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
@@ -65,13 +81,13 @@ input[type=submit] {
 input[type=submit]:hover,
 input[type=submit]:active {
     background-color: #cf6d17;
-    color: antiquewhite;
+    color:  #cf6d17;;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid #e67e22;
-    color: antiquewhite;
+    color:  #cf6d17;;
 }
 
 .btn-ghost:hover,
