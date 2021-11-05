@@ -73,7 +73,7 @@
     position: absolute;
 }
 .opening{
-    color: #cf6d17;
+    color: #fc6404;
     font-weight: 300;
     font-size: 1.3rem;
     text-align: center;
@@ -81,7 +81,7 @@
 }
 
 .offerings{
-    color:  #cf6d17;;
+    color:  #fc6404;
     font-weight: 300;
     font-size: 1.3rem;
     padding-top: 1%;
@@ -89,7 +89,7 @@
 }
 
 .locate{
-    color:  #cf6d17;;
+    color:  #fc6404;
     font-weight: 300;
     font-size: 1.3rem;
     padding-top: 1%;
@@ -105,7 +105,7 @@ input[type=submit] {
     margin-left: 8%;
     font-weight: 600;
     font-size: 1.3rem;
-    color:  #cf6d17;;
+    color:  #fc6404;
     text-decoration: none;
     border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
@@ -115,19 +115,19 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #cf6d17;
-    color:  #cf6d17;;
+    background-color:#fc6404;
+    color:  #fc6404;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #e67e22;
-    color:  #cf6d17;;
+    border: 1px solid #fc6404;
+    color:  #fc6404;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #cf6d17;
+    border: 1px solid #fc6404;
     color: #fff;
 }
 
