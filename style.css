@@ -5,11 +5,38 @@
     font-family: 'Lato', 'Arial', sans-serif;
 }
 
+@media screen and (max-width: 360px) {
+    .titleorg{
+        display:none;
+    }
+    .titlename{
+        display:none !important;
+    }
+}
+@media screen and (max-width: 480px) {
+
+    .titleorg{
+        left: -128px;
+        top:27%;
+    }
+    .opening{
+        padding-left: 4%;
+        padding-top: 80%;
+    }
+    .mainLogo{
+        left:18px;
+    }
+    .titlename{
+        left: -11%;
+        top: 119%;
+    }
+    .buttons{
+    margin-left: 14%;
+    margin-top: 6%;
+    }
+}
+
 .container{
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
     width: 100%;
     padding-left: 8%;
     padding-right: 8%;
@@ -18,17 +45,18 @@
 
 .titlename{
     display: block;
+    position: absolute;
     width: 100%;
     max-width: 185px;
-    padding-top: 1%;
-    margin-left: 42%;
+    margin-left: 37%;
 }
 
 .titleorg{
     width: 100%;
-    max-width: 362px;
+    max-width: 323px;
     padding-top: 4%;
-    margin-left: 46%;
+    margin-left: 43%;
+    position: absolute;
 }
 
 .mainLogo{
@@ -41,25 +69,25 @@
 .opening{
     color: #cf6d17;
     font-weight: 300;
-    font-size: 20px;
-    padding-top: 6%;
-    margin-left: 24%;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 23%;
 }
 
 .offerings{
     color:  #cf6d17;;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.3rem;
     padding-top: 1%;
-    margin-left: 23%;
+    text-align: center;
 }
 
 .locate{
     color:  #cf6d17;;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.3rem;
     padding-top: 1%;
-    margin-left: 25%;
+    text-align: center;
 }
 
 .btn:link,
@@ -67,9 +95,10 @@
 input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
+    margin-bottom: 2%;
     margin-left: 8%;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.3rem;
     color:  #cf6d17;;
     text-decoration: none;
     border-radius: 200px;
@@ -97,10 +126,11 @@ input[type=submit]:active {
 }
 
 .buttons{
-    padding-top: 1%;
+    padding-top: 2%;
 }
 
 .locationpng{
     width: 3%;
     margin-right: 10px;
 }
+
