@@ -17,7 +17,7 @@
 
     .titleorg{
         left: -128px;
-        top:36%;
+        top:33%;
     }
     .opening{
         padding-left: 4%;
@@ -28,7 +28,13 @@
     }
     .titlename{
         left: -11%;
-        top: 161%;
+        top: 159%;
+    }
+    .offerings{
+        margin-top: 5%;
+    }
+    .locate{
+        margin-top: 5%;
     }
     .buttons{
     margin-left: 14%;
